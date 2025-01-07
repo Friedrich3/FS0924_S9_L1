@@ -3,7 +3,9 @@ const ButtonComponent = function (props) {
   return (
     <>
       <div>
-        <button>{props.text}</button>
+        <a href={`https://${props.text}.dev`} target="blank">
+          <button>More About {props.text}</button>
+        </a>
       </div>
     </>
   );
