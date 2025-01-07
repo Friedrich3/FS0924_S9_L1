@@ -28,7 +28,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  #root div:nth-child(1) .logo {
+  #cardContainer div:nth-child(1) .logo {
     animation: logo-spin infinite 20s linear;
   }
 }
