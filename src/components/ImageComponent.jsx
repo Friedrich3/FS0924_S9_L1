@@ -1,8 +1,8 @@
-/* eslint-disable react/prop-types */
+
 import { Component } from "react";
 
 class ImageComponent extends Component {
-  render() {
+render() {
     return (
     <>
         <div>
@@ -10,7 +10,7 @@ class ImageComponent extends Component {
         </div>
     </>
     )
-  }
+}
 }
 
 export default ImageComponent

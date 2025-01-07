@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+
 const TitleComponent = function(){
     return(
         <div>
